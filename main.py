@@ -12,7 +12,9 @@ file_name = "Image.png"
 Image(file_name)
 
 #output is a list of tuples, the first one is the co-ordinate of the text and the second is the predicted hindi text.
+#and the third item in the tuple is the prediction accuracy.
 output =  reader.readtext(file_name)
 
 for i in output:
+    print("this is where it starts")
     print(i)
